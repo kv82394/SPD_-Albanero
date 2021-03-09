@@ -13,6 +13,9 @@ console.log(typeof(val))
 val = "123"
 val = Number(val)
 console.log(typeof val)
+val = "                         123                   "
+val = Number(val)
+console.log(typeof val)
 //implicit type conversion
 console.log("5"/"5")
 console.log("5"/5)
