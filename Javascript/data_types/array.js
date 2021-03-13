@@ -29,3 +29,32 @@ for (let i = 0 ;i< arr.length;i++){
 for (let key of arr){
     console.log(key);
 }
+let arr2 = [
+    {    x : 1,
+        y : 2,
+        z : 3
+    },
+    {
+        gf:98,
+        gfu : 86
+    }
+
+];
+console.log("length of arr2 : ",arr2.length)
+for (let key of arr2){
+    for (subkey in key){
+        console.log(subkey,key[subkey])
+    }
+}
+for (let i = 0;i<arr2.length;i++){
+    console.log(arr2[i]);
+}
+console.log(arr2[0]['x'])
+let user = {
+    fname : "vivek",
+    age : 22,
+    roll : 76
+}
+for (key in user){
+    console.log(key,user[key])
+}
